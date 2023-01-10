@@ -2,11 +2,11 @@ class Calculator:
    def multiply(self, x, y):
        return x * y
 
-   def division(self, x, y):
+   def divide(self, x, y):
        return x / y
 
-   def subtraction(self, x, y):
+   def subtract(self, x, y):
        return x - y
 
-   def adding(self, x, y):
+   def add(self, x, y):
        return x + y
