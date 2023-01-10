@@ -9,22 +9,22 @@ NUMBER2 = 2
 def calculator():
   return Calculator()
 
-def test_add(calculator):
+def test_add_passed(calculator):
   expected = NUMBER1 + NUMBER2
   answer = calculator.add(NUMBER1, NUMBER2)
-  assert expected == answer
+  assert answer == expected
 
-def test_subtract(calculator):
+def test_subtract_passed(calculator):
   expected = NUMBER1 - NUMBER2
   answer = calculator.subtract(NUMBER1, NUMBER2)
-  assert expected == answer
+  assert answer == expected
 
-def test_multiply(calculator):
+def test_multiply_passed(calculator):
   expected = NUMBER1 * NUMBER2
   answer = calculator.multiply(NUMBER1, NUMBER2)
-  assert expected == answer
+  assert answer == expected
 
-def test_divide(calculator):
+def test_divide_passed(calculator):
   expected = NUMBER1 / NUMBER2
   answer = calculator.divide(NUMBER1, NUMBER2)
-  assert expected == answer
+  assert answer == expected
